@@ -13,16 +13,16 @@ int solution(string s) {
 
 	for (int i = 0; i <l; i++) {
 
-		if (s[i] >= '0' && s[i] <= '9') { // ¼ýÀÚ
+		if (s[i] >= '0' && s[i] <= '9') { // ìˆ«ìž
 			answer.push_back(s[i]);
 		}
-		else { // ¹®ÀÚ
+		else { // ë¬¸ìž
 			for (int j = 0; j<10; j++) {
 				if (num[j][0] == s[i]) {
-					if (num[j][1] == s[i + 1]) { // ºñ±³
+					if (num[j][1] == s[i + 1]) { // ë¹„êµ
 						n = j + '0';
-						answer.push_back(n); // ¿µ´Ü¾î Å©±â¸¸Å­ ³Ñ±â±â
-						i += num[j].size() - 1;
+						answer.push_back(n); 
+						i += num[j].size() - 1; // ì˜ë‹¨ì–´ í¬ê¸°ë§Œí¼ ë„˜ê¸°ê¸°
 						break;
 					}
 				}
