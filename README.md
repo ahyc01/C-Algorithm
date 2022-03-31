@@ -1,4 +1,4 @@
-# C++ Algoritm 스터디
+# C++ Algorithm 스터디
 
 ## 스터디원
 - [이은성](https://github.com/Ganbilly)
