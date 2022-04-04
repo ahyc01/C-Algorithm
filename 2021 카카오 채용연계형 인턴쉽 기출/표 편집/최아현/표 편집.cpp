@@ -1,11 +1,10 @@
-/*#include <string>
+#include <string>
 #include <iterator>
 #include <vector>
 #include <iostream>
 #include <stack>
 
 using namespace std;
-// k ½ÃÀÛÀ§Ä¡
 
 int location(int k, int loca, vector<string> table) {
 
@@ -53,11 +52,11 @@ string solution(int n, int k, vector<string> cmd) {
 			}
 			k = location(k, loc, table);
 		}
-		else if (s[0] == 'C') { // »èÁ¦ ÈÄ ¾Æ·¡·Î
+		else if (s[0] == 'C') { // ì‚­ì œ í›„ ì•„ë˜ë¡œ
 			table[k] = 'X';
 			last_del.push(k);
 
-			if (k == n - 1) // ¸Ç ¾Æ·¡¿´À» °æ¿ì
+			if (k == n - 1) // ë§¨ ì•„ë˜ì˜€ì„ ê²½ìš°
 				k = location(k, -1, table);
 			else
 				k = location(k, 1, table);
@@ -76,8 +75,3 @@ string solution(int n, int k, vector<string> cmd) {
 	}
 	return answer;
 }
-
-//Á¤È®¼º: 28.0
-//È¿À²¼º: 0.0
-//ÇÕ°è: 28.0 / 100.0
-*/
