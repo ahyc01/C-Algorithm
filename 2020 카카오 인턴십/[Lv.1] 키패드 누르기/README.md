@@ -27,4 +27,4 @@ hand는 "left" 또는 "right" 입니다.
 
 | places |	result | result |
 |:---:|:---:|:---:|
-|[[1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5], <br>["right"],<br> ["LRLLLRLLRRL"],<br> ["OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"], <br>["PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"]] | [1, 0, 1, 1, 1] |
+|[[1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5], <br>["right"],<br> ["LRLLLRLLRRL"]]|
