@@ -25,6 +25,6 @@ hand는 "left" 또는 "right" 입니다.
 
 ## 입출력 예
 
-| places |	result | result |
+| numbers |	hand | result |
 |:---:|:---:|:---:|
-|[[1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5], <br>["right"], <br>["LRLLLRLLRRL"] ]|
+|[1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5]|["right"]|["LRLLLRLLRRL"]|
