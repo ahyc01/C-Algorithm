@@ -41,4 +41,4 @@ int main() {
 	cout << answer;
 }
 
-// https://cryptosalamander.tistory.com/58*/
+// https://cryptosalamander.tistory.com/58
