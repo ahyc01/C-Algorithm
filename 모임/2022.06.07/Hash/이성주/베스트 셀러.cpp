@@ -4,14 +4,15 @@
 
 using namespace std;
 
-#define fast_IO ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-
 int main() {
 	int N = 0, cnt = 0;
 	string cmd, answer;
 	map<string, int> m;
-  fast_IO;
-  
+
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+
 	cin >> N;
 
 	for (int i = 0; i < N; i++) {
