@@ -1,7 +1,6 @@
 #include<iostream>
 #include<map>
 #include<string>
-#include<vector>
 
 using namespace std;
 
@@ -15,15 +14,15 @@ int main() {
 
 	for (int i = 0; i < n; i++) {
 		cin >> x;
-		if (m.count(x)) { // Å° ÀÖÀ¸¸é +1
+		if (m.count(x)) { // í‚¤ ìˆìœ¼ë©´ +1
 			m[x] += 1;
 		}
-		else { // ¾øÀ¸¸é Ãß°¡
+		else { // ì—†ìœ¼ë©´ ì¶”ê°€
 			m[x] = 1;
 		}
 	}
 
-	for (auto j : m) { // ¸Ê¾ÈÀÇ ¿ø¼Òµé value max Ã£±â
+	for (auto j : m) { // ë§µì•ˆì˜ ì›ì†Œë“¤ value max ì°¾ê¸°
 		if (Vmax < j.second) {
 			Vmax = j.second;
 			Kmax = j.first;
