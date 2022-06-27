@@ -4,7 +4,6 @@
 using namespace std;
 
 struct Node {
-
 	char c;
 	Node *left = NULL;
 	Node *right = NULL;
@@ -12,11 +11,9 @@ struct Node {
 
 void pre(Node *node) {
 	cout << node->c;
-
 	if (node->left != NULL) {
 		pre(node->left);
 	}
-
 	if (node->right != NULL) {
 		pre(node->right);
 	}
@@ -25,9 +22,7 @@ void in(Node *node) {
 	if (node->left != NULL) {
 		in(node->left);
 	}
-
 	cout << node->c;
-
 	if (node->right != NULL) {
 		in(node->right);
 	}
@@ -36,13 +31,12 @@ void post(Node *node) {
 	if (node->left != NULL) {
 		post(node->left);
 	}
-
 	if (node->right != NULL) {
 		post(node->right);
 	}
-
 	cout << node->c;
 }
+
 int main() {
 
 	int N;
